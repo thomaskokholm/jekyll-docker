@@ -4,6 +4,6 @@ services:
   jekyll:
     image: bretfisher/jekyll-serve
     volumes:
-      - ./site:/site
+      - ./:/site
     ports:
       - '8081:4000'

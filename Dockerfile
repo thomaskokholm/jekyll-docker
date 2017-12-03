@@ -6,7 +6,7 @@ RUN gem install github-pages
 
 EXPOSE 4000
 
-WORKDIR /site
+#WORKDIR /site
 
 # crate new site by setting -e JEKYLL_NEW=true
 ENV JEKYLL_NEW false
