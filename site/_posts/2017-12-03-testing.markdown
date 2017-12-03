@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Testing Jekyll!"
+date:   2017-12-03 11:37:49 +0000
+categories: jekyll update
+---
+This is a test of Jekyll with  docker-compose

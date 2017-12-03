@@ -1,0 +1,15 @@
+Everything taken from here:
+
+https://github.com/BretFisher/jekyll-serve
+
+But the commands are:
+=============================
+When I need to create a site first? (aka I have an empty "site" folder at root)
+
+just add a environment variable to the run command to tell the container to make one:
+
+docker run -p 8081:4000 -v .:/site -e JEKYLL_NEW=true bretfisher/jekyll-serve
+------------------------
+When I want to run the site again after making changes (or git pull)
+
+docker run -p 8081:4000 -v .:/site bretfisher/jekyll-serve
