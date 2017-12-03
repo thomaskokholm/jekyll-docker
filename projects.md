@@ -8,5 +8,5 @@ Here goes projects.
 
 
 {% for project in site.data.projects %}
-  <p>{{ include.project.name }}</p>
+  <p>{{ project.name }}</p>
 {% endfor %}
